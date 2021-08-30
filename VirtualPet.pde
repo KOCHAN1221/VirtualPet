@@ -19,8 +19,8 @@ void draw()
   fill(250, 186, 204);
   stroke(250, 186, 204);
 
-  ellipse(170, 100, 18, 88); //pink ear one
-  ellipse(220, 100, 18, 88); //pink ear two
+  ellipse(170, 100, 16, 80); //pink ear one
+  ellipse(220, 100, 16, 80); //pink ear two
   stroke(0, 0, 0);
 
   noFill();
