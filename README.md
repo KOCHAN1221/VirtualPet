@@ -1,28 +1,58 @@
-![](Penguin.JPG)   
-Virtual Pet
-=============
+void setup()
+{
+  size(400,400);
+}
+void draw()
+{
+  background(189, 222, 241);
+  fill(255, 255, 255);
 
-In this project you will write a program using [Processing](https://processing.org) that displays any animal of your choosing. You can use almost any drawing functions that you would like, you can find the full list at the [Processing Reference](https://processing.org/reference) (See note below).  Your program will need to be divided into at least two functions `void setup()` and `void draw()`. You may find slides of the [apjavaProcessing slide presentation](https://docs.google.com/presentation/d/1sqbareaFmF9fMcp0XOl3hRO6hAlrU5WIaj4V-Kd3eDI/edit?usp=sharing) helpful. 
+  ellipse(280, 335, 110, 50); //arm one
+  ellipse(110, 335, 110, 50); //arm two 
 
-When you are happy with the appearance of your virtual pet, you will post your finished program on a website. You can get a free [GitHub](https://github.com) account for your website. Instructions on how to put your program on a GitHub website are on slides 73-86 of the [apjavaProcessing slide presentation](https://docs.google.com/presentation/d/1sqbareaFmF9fMcp0XOl3hRO6hAlrU5WIaj4V-Kd3eDI/edit?usp=sharing). Submit the link to your website on google classroom.
+  ellipse(195, 375 , 178, 190); //body
 
-In the next assignment we will [use an Arduino to interact with your virtual pet](https://github.com/APCSLowell/LightSensorController#use-an-adafruit-circuit-playground-as-an-input-device-in-a-processing-program). As you work on your design, think about an element of the design that could be changed with a single variable.
+  fill(255, 255, 255);
+  ellipse(170,100, 30, 100); //ear one
+  ellipse(220,100, 30, 100); //ear two
+  fill(250, 186, 204);
+  stroke(250, 186, 204);
 
-Note: The following Processing functions do not work on the web:
-----------------------------------------------------------
-+ `circle()`
-+ `square()`
-+ `clear()`
-+ `delay()`
-+ `System.out.println()`
-+ `System.out.print()`
-+ Using `CHORD` or `PIE` modes with `arc()`
-+ Using an image as an argument in `background()`
+  ellipse(170, 100, 18, 88); //pink ear one
+  ellipse(220, 100, 18, 88); //pink ear two
+  stroke(0, 0, 0);
 
-Samples of Student Work
------------------------
-[Johnny](https://jlin202.github.io/VirtualPet/)   
-[Nash](https://moonnash.github.io/VirtualPet/)   
-[Max](https://max-2023.github.io/VirtualPet/)   
-[Zoey](https://zoeyzhu.github.io/VirtualPet/)   
+  noFill();
+  fill(255, 255, 255);
+
+  ellipse(195,220, 240, 210); //head
+  fill(0, 0, 0);
+  ellipse(170,190, 18, 18); //eye one
+  ellipse(220,190, 18, 18);//eye two
+  strokeWeight(4);
+
+  noFill();
+
+  ellipse(195, 213, 24, 19); //nose
+  strokeWeight(2);
+  fill(240, 145, 168);
+  
+  line(195, 223, 195, 238); //nose vertical line
+  strokeWeight(1);
+  stroke(250, 186, 204);
+
+  ellipse(135, 210, 30, 19); //cheek one
+  ellipse(250, 210, 30, 19); //cheek two
+  strokeWeight(4);
+  stroke(0, 0, 0);
+
+  line(180, 240, 209, 240); //nose horizontal line
+  
+}
+
+
+
+
+
+
 
